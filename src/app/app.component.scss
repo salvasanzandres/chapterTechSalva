@@ -1,0 +1,32 @@
+mat-grid-tile {
+  background: lightblue;
+  cursor: pointer;
+}
+mat-list{
+  width: 50%;
+}
+
+.block-role {
+  width: 100%;
+  background-color: beige;
+  min-height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 2px solid black;
+}
+
+.wrapper{
+  display: flex;
+  .block-boulangerie {
+    flex: 1;
+  }
+  .block-vitrine {
+    flex: 1;
+  }
+  img.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+  }
+}
+
